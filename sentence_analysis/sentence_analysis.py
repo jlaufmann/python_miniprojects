@@ -13,13 +13,13 @@ Use a dictionary to store the count of each of the above.
 sentence = input("Please enter your sentence for analysis: ")
 analysis = {'lower': 0, 'upper': 0, 'puncs': 0, 'chars': 0}
 
-for i in range(0, len(sentence)):
+for i in range(len(sentence)):
     if sentence[i].islower():
         analysis['lower'] += 1
     elif sentence[i].isupper():
         analysis['upper'] += 1
     elif sentence[i].isspace():
-        i
+        pass
     else:
         analysis['puncs'] += 1
 

@@ -24,7 +24,6 @@ for i in range(len(sentence)):
         analysis['puncs'] += 1
 
 analysis['chars'] = analysis['lower'] + analysis['upper'] + analysis['puncs']
-print('Lower case: ' + str(analysis['lower']))
-print('Upper case: ' + str(analysis['upper']))
+print('Lower case: ' + str(analysis['lower'])p('Upper case: ' + str(analysis['upper']))
 print('Punctuation: ' + str(analysis['puncs']))
 print('Total chars: ' + str(analysis['chars']))
